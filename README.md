@@ -1,6 +1,6 @@
 ____
-:red_car:
-# Auto-parts-store (VintageParts)
+
+# :red_car: Auto-parts-store (VintageParts) :red_car:
 ____
 ## Course project "Auto Parts Store" called VintageParts. WPF was used to write the software.
 ## Libraries used:
