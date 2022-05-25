@@ -1,0 +1,51 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:VintageParts.ViewModels" xmlns:local1="clr-namespace:VintageParts.Views"
+                    xmlns:admin="clr-namespace:VintageParts.ViewModels.AdminViewModels"
+                    xmlns:adminV="clr-namespace:VintageParts.Views.AdminViews">
+    <DataTemplate DataType="{x:Type local:SearchViewModel}">
+        <local1:SearchView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type local:HomeViewModel}">
+        <local1:HomeView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type local:CartViewModel}">
+        <local1:CartView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type local:ProfileViewModel}">
+        <local1:ProfileView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type local:SettingsViewModel}">
+        <local1:SettingsView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type local:FullInfoViewModel}">
+        <local1:FullInfoView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type local:LoginViewModel}">
+        <local1:LoginView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type local:RegViewModel}">
+        <local1:RegView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type local:ConfirmOrderViewModel}">
+        <local1:ConfirmOrderView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type admin:HomeAdminVM}">
+        <adminV:AdminHomeView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type admin:UsersAdminVM}">
+        <adminV:AdminUsersView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type admin:OrdersAdminVM}">
+        <adminV:OrdersAdminView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type local:AboutViewModel}">
+        <local1:AboutView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type local:ChangePasswordViewModel}">
+        <local1:ChangePasswordView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type local:CancelOrderViewModel}">
+        <local1:CancelOrderView/>
+    </DataTemplate>
+</ResourceDictionary>

@@ -1,0 +1,16 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ControlTemplate x:Key="CatList" TargetType="ListBoxItem">
+        <Border Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}">
+            <Border.InputBindings>
+                <MouseBinding MouseAction="{x:Static MouseAction.LeftDoubleClick}"
+                              Command="{Binding RelativeSource={RelativeSource AncestorType=ListBox}, Path=DataContext.OpenFullInfo}"
+                              CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=ListBox}, Path=OpenFullInfo}" />
+            </Border.InputBindings>
+
+            <ContentPresenter />
+        </Border>
+    </ControlTemplate>
+</ResourceDictionary>

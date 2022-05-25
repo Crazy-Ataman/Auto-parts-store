@@ -1,0 +1,63 @@
+﻿<Window x:Class="VintageParts.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:VintageParts"
+        xmlns:view="clr-namespace:VintageParts.ViewModels"
+        mc:Ignorable="d"
+        Title="VintageParts" MinHeight="600" MinWidth="1000" Background="#341e7c">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="253*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="274*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Row="0" Grid.Column="0">
+            <materialDesign:Card Margin="10,0,10,0" UniformCornerRadius="5" materialDesign:ShadowAssist.ShadowDepth="Depth4" Background="#522074">
+                <Grid>
+                    <TextBlock Text="VintageParts" FontSize="30" FontFamily="Helvetica" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Black" Opacity="0.5 "/>
+                    <TextBlock Text="VintageParts" Margin="5,5,0,0" FontSize="30" FontFamily="Helvetica" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="White"/>
+                </Grid>
+            </materialDesign:Card>
+        </Grid>
+        <Grid Grid.Row="1">
+            <materialDesign:Card Margin="10" materialDesign:ShadowAssist.ShadowDepth="Depth4" UniformCornerRadius="5">
+                <StackPanel Grid.Row="1" Background="#522074">
+                    <RadioButton x:Name="homeRadio" Content="{DynamicResource Home}" FontSize="20" Height="50" Style="{StaticResource MenuButtonTheme}" Command="{Binding OpenHome}" />
+                    <RadioButton x:Name="searchRadio" Content="{DynamicResource Search}" FontSize="20" Height="50" Style="{StaticResource MenuButtonTheme}" Command="{Binding OpenSearch}" />
+                    <RadioButton x:Name="settingsRadio" Content="{DynamicResource Settings}" FontSize="20" Height="50" Style="{StaticResource MenuButtonTheme}" Command="{Binding OpenSettings}" />
+                    <RadioButton x:Name="cartRadio" Content="{DynamicResource Cart}" FontSize="20" Height="50" Style="{StaticResource MenuButtonTheme}" Command="{Binding OpenCart}"/>
+                    <RadioButton x:Name="aboutRadio" Content="{DynamicResource About}" FontSize="20" Height="50" Style="{StaticResource MenuButtonTheme}" Command="{Binding OpenAbout}" VerticalAlignment="Bottom" />
+                </StackPanel>
+            </materialDesign:Card>
+        </Grid>
+        <Grid Grid.Row="0" Grid.Column="1">
+            <materialDesign:Card Background="#522074" UniformCornerRadius="5" materialDesign:ShadowAssist.ShadowDepth="Depth4">
+                <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid Grid.Column="1">
+                <Menu Background="Transparent" VerticalAlignment="Center">
+                    <Button Background="Transparent" BorderBrush="Transparent" Command="{Binding OpenProfile}">
+                        <materialDesign:PackIcon Kind="AccountCircleOutline" Width="25" Height="25"/>
+                    </Button>
+                    <Button Background="Transparent" Command="{Binding Exit}" BorderBrush="Transparent" Width="60" Height="60" Margin="0,0,15,0">
+                        <materialDesign:PackIcon Kind="ExitRun" Width="25" Height="25" Margin="0,0,0,5"/>
+                    </Button>
+                </Menu>
+            </Grid>
+            </Grid>
+            </materialDesign:Card>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="1" x:Name="MainGrid">
+            <ContentControl Content="{Binding CurrentViewModel}"/>
+        </Grid>
+    </Grid>
+</Window>

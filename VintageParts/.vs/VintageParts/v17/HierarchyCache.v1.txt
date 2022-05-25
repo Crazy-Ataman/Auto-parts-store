@@ -1,0 +1,338 @@
+﻿++Solution 'VintageParts' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:VintageParts.sln
+++VintageParts
+i:{00000000-0000-0000-0000-000000000000}:VintageParts
+++Properties
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\properties\
+++References
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++Commands
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\commands\
+++Command.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\commands\command.cs
+++Database
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\database\
+++ConnectionBetweenViews.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\database\connectionbetweenviews.cs
+++PartShopDbContext.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\database\partshopdbcontext.cs
+++Localization
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\localization\
+++Language.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\localization\language.cs
+++Models
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\models\
+++Authorization.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\models\authorization.cs
+++Brand.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\models\brand.cs
+++Card.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\models\card.cs
+++Category.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\models\category.cs
+++Delivery.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\models\delivery.cs
+++Media.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\models\media.cs
+++Order.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\models\order.cs
+++OrderedParts.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\models\orderedparts.cs
+++Part.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\models\part.cs
+++Provider.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\models\provider.cs
+++User.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\models\user.cs
+++Resources
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\resources\
+++Images
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\resources\images\
+++AdminDataTemplates.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\resources\admindatatemplates.xaml
+++DataTemplates.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\resources\datatemplates.xaml
+++language.ru-RU.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\resources\language.ru-ru.xaml
+++language.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\resources\language.xaml
+++ListViewItemTemplate.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\resources\listviewitemtemplate.xaml
+++MenuButton.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\resources\menubutton.xaml
+++RoundedButton.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\resources\roundedbutton.xaml
+++RoundedTextBox.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\resources\roundedtextbox.xaml
+++Services
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\services\
+++EmailSenderService.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\services\emailsenderservice.cs
+++SecurePassService.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\services\securepassservice.cs
+++SingletonView
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\singletonview\
+++Singleton.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\singletonview\singleton.cs
+++SingletonAdmin.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\singletonview\singletonadmin.cs
+++SingletonAuth.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\singletonview\singletonauth.cs
+++ViewModels
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\
+++AdminViewModels
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\
+++AddDeliveryVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\adddeliveryvm.cs
+++AddPartVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\addpartvm.cs
+++BrandsAdminVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\brandsadminvm.cs
+++CardsAdminVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\cardsadminvm.cs
+++CategoriesAdminVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\categoriesadminvm.cs
+++DeliveriesAdminVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\deliveriesadminvm.cs
+++HomeAdminVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\homeadminvm.cs
+++MainAdminVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\mainadminvm.cs
+++MediasAdminVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\mediasadminvm.cs
+++MediasDataAdminVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\mediasdataadminvm.cs
+++OrdersAdminVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\ordersadminvm.cs
+++PartsAdminVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\partsadminvm.cs
+++ProvidersAdminVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\providersadminvm.cs
+++UsersAdminVM.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\adminviewmodels\usersadminvm.cs
+++AboutViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\aboutviewmodel.cs
+++AddCardViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\addcardviewmodel.cs
+++AuthViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\authviewmodel.cs
+++CancelOrderViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\cancelorderviewmodel.cs
+++CartViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\cartviewmodel.cs
+++ChangePasswordViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\changepasswordviewmodel.cs
+++ConfirmOrderViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\confirmorderviewmodel.cs
+++FullInfoViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\fullinfoviewmodel.cs
+++HomeViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\homeviewmodel.cs
+++LoginViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\loginviewmodel.cs
+++MainViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\mainviewmodel.cs
+++ProfileViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\profileviewmodel.cs
+++RegViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\regviewmodel.cs
+++SearchViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\searchviewmodel.cs
+++SettingsViewModel.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\settingsviewmodel.cs
+++ViewModelBase.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\viewmodels\viewmodelbase.cs
+++Views
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\
+++AdminViews
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\
+++AboutView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\aboutview.xaml
+++AddCardView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\addcardview.xaml
+++AuthView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\authview.xaml
+++AuthView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\authview.xaml.cs
+++CancelOrderView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\cancelorderview.xaml
+++CartView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\cartview.xaml
+++ChangePasswordView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\changepasswordview.xaml
+++ConfirmOrderView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\confirmorderview.xaml
+++FullInfoView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\fullinfoview.xaml
+++HomeView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\homeview.xaml
+++LoginView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\loginview.xaml
+++ProfileView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\profileview.xaml
+++RegView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\regview.xaml
+++SearchView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\searchview.xaml
+++SettingsView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\settingsview.xaml
+++App.config
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\app.config
+++App.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\app.xaml
+++Logo_32.ico
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\logo_32.ico
+++MainWindow.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\mainwindow.xaml
+++packages.config
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\packages.config
+++AssemblyInfo.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\properties\assemblyinfo.cs
+++Resources.resx
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\properties\resources.resx
+++Settings.settings
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\properties\settings.settings
+++EntityFramework
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++EntityFramework.SqlServer
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++MaterialDesignColors
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++MaterialDesignThemes.Wpf
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++Microsoft.CSharp
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++Microsoft.Expression.Interactions
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++Microsoft.Xaml.Behaviors
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++PresentationCore
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++PresentationFramework
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++System
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++System.ComponentModel.DataAnnotations
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++System.Configuration
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++System.Core
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++System.Data
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++System.Data.DataSetExtensions
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++System.Drawing
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++System.Net.Http
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++System.Windows.Forms
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++System.Windows.Interactivity
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++System.Xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++System.Xml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++System.Xml.Linq
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++ToastNotifications
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++ToastNotifications.Messages
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++WindowsBase
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:
+++AddDeliveryWindow.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\adddeliverywindow.xaml
+++AddPartWindow.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\addpartwindow.xaml
+++AdminHomeView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\adminhomeview.xaml
+++BrandsAdminView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\brandsadminview.xaml
+++CardsAdminView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\cardsadminview.xaml
+++CategoriesAdminView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\categoriesadminview.xaml
+++DeliveriesAdminView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\deliveriesadminview.xaml
+++MainAdminView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\mainadminview.xaml
+++MediasAdminView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\mediasadminview.xaml
+++MediasDataAdminView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\mediasdataadminview.xaml
+++OrdersAdminView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\ordersadminview.xaml
+++PartsAdminView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\partsadminview.xaml
+++ProvidersAdminView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\providersadminview.xaml
+++UsersAdminView.xaml
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\usersadminview.xaml
+++AboutView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\aboutview.xaml.cs
+++AddCardView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\addcardview.xaml.cs
+++CancelOrderView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\cancelorderview.xaml.cs
+++CartView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\cartview.xaml.cs
+++ChangePasswordView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\changepasswordview.xaml.cs
+++ConfirmOrderView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\confirmorderview.xaml.cs
+++FullInfoView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\fullinfoview.xaml.cs
+++HomeView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\homeview.xaml.cs
+++LoginView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\loginview.xaml.cs
+++ProfileView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\profileview.xaml.cs
+++RegView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\regview.xaml.cs
+++SearchView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\searchview.xaml.cs
+++SettingsView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\settingsview.xaml.cs
+++App.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\app.xaml.cs
+++MainWindow.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\mainwindow.xaml.cs
+++Resources.Designer.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\properties\resources.designer.cs
+++Settings.Designer.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\properties\settings.designer.cs
+++AddDeliveryWindow.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\adddeliverywindow.xaml.cs
+++AddPartWindow.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\addpartwindow.xaml.cs
+++AdminHomeView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\adminhomeview.xaml.cs
+++BrandsAdminView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\brandsadminview.xaml.cs
+++CardsAdminView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\cardsadminview.xaml.cs
+++CategoriesAdminView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\categoriesadminview.xaml.cs
+++DeliveriesAdminView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\deliveriesadminview.xaml.cs
+++MainAdminView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\mainadminview.xaml.cs
+++MediasAdminView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\mediasadminview.xaml.cs
+++MediasDataAdminView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\mediasdataadminview.xaml.cs
+++OrdersAdminView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\ordersadminview.xaml.cs
+++PartsAdminView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\partsadminview.xaml.cs
+++ProvidersAdminView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\providersadminview.xaml.cs
+++UsersAdminView.xaml.cs
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\views\adminviews\usersadminview.xaml.cs
+++ClassDiagram1.cd
+i:{e461a466-f73c-4ff9-a9e4-9506da92036a}:e:\лабы\курсовой ооп\vintageparts\vintageparts\classdiagram1.cd
+++VintageParts (unloaded)
+++Solution 'VintageParts' ‎(0 of 1 project)

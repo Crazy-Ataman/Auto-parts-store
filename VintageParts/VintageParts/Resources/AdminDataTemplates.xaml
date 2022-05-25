@@ -1,0 +1,32 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:admin="clr-namespace:VintageParts.ViewModels.AdminViewModels"
+                    xmlns:adminV="clr-namespace:VintageParts.Views.AdminViews">
+    <DataTemplate DataType="{x:Type admin:ProvidersAdminVM}">
+        <adminV:ProvidersAdminView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type admin:PartsAdminVM}">
+        <adminV:PartsAdminView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type admin:DeliveriesAdminVM}">
+        <adminV:DeliveriesAdminView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type admin:AddDeliveryVM}">
+        <adminV:AddDeliveryWindow/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type admin:AddPartVM}">
+        <adminV:AddPartWindow/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type admin:BrandsAdminVM}">
+        <adminV:BrandsAdminView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type admin:CategoriesAdminVM}">
+        <adminV:CategoriesAdminView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type admin:CardsAdminVM}">
+        <adminV:CardsAdminVM/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type admin:MediasAdminVM}">
+        <adminV:MediasAdminVM/>
+    </DataTemplate>
+</ResourceDictionary>

@@ -1,0 +1,49 @@
+﻿<UserControl x:Class="VintageParts.Views.AboutView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:VintageParts.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" FontFamily="Helvetica">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="401*"/>
+            <RowDefinition Height="49*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <materialDesign:Card Margin="5" UniformCornerRadius="5" materialDesign:ShadowAssist.ShadowDepth="Depth4">
+                <StackPanel>
+                    <TextBlock Text="{DynamicResource FAQ}" FontSize="24" HorizontalAlignment="Center"/>
+                    <Expander Header="{DynamicResource FAQ1}" >
+                        <TextBlock Text="{DynamicResource FAQ11}"/>
+                    </Expander>
+                    <Expander Header="{DynamicResource FAQ2}">
+                        <TextBlock Text="{DynamicResource FAQ21}" TextWrapping="Wrap"/>
+                    </Expander>
+                    
+                </StackPanel>
+            </materialDesign:Card>
+        </Grid>
+        <Grid Grid.Row="1">
+            <materialDesign:Card Margin="5" materialDesign:ShadowAssist.ShadowDepth="Depth4" UniformCornerRadius="5">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock Text="Copyright © Crazy_Ataman a.k.a Dashchynski Maksim" VerticalAlignment="Center" Margin="10,0,0,0"/>
+                    <TextBlock Text="Contacts: " Margin="70,0,0,0" VerticalAlignment="Center"/>
+                    <TextBlock VerticalAlignment="Center">
+                        <Hyperlink NavigateUri="https://vk.com/id546952255" Command="{Binding OpenVk}">
+                            VK,
+                        </Hyperlink>
+                        <Hyperlink Command="{Binding OpenSteam}">
+                            Steam,
+                        </Hyperlink>
+                        <Hyperlink Command="{Binding OpenGitHub}">
+                            GitHub
+                        </Hyperlink>
+                    </TextBlock>
+                </StackPanel>
+            </materialDesign:Card>
+        </Grid>
+    </Grid>
+</UserControl>

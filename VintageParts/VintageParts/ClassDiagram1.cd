@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VintageParts.ViewModels.AboutViewModel" Collapsed="true">
+    <Position X="32.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAECAQABAgAAA=</HashCode>
+      <FileName>ViewModels\AboutViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AddCardViewModel" Collapsed="true">
+    <Position X="36.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAIAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAQAACAACA=</HashCode>
+      <FileName>ViewModels\AddCardViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AuthViewModel" Collapsed="true">
+    <Position X="36.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAEAAAAAAAQAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>ViewModels\AuthViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.CancelOrderViewModel" Collapsed="true">
+    <Position X="35.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAgAEAAAAAAAIAAIAAAAAAAAAAQABAAAAQ=</HashCode>
+      <FileName>ViewModels\CancelOrderViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.CartViewModel" Collapsed="true">
+    <Position X="32.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARDAAAUgACAEAAAAERAAIAEAAIAAEAAAAQAAIAARgAU=</HashCode>
+      <FileName>ViewModels\CartViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.ChangePasswordViewModel" Collapsed="true">
+    <Position X="34.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAAAAAAABIAAAAAICAIAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ChangePasswordViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.ConfirmOrderViewModel" Collapsed="true">
+    <Position X="37.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAABAAAAAAAAAAAAAAAAIAAAACAAAQAAABAAAAA=</HashCode>
+      <FileName>ViewModels\ConfirmOrderViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.FullInfoViewModel" Collapsed="true">
+    <Position X="36.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACCQ=</HashCode>
+      <FileName>ViewModels\FullInfoViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.HomeViewModel" Collapsed="true">
+    <Position X="34.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAAACAACCAAARAAAAEQIIAAAAAAAAAgAAADIpQ=</HashCode>
+      <FileName>ViewModels\HomeViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.LoginViewModel" Collapsed="true">
+    <Position X="34.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAEAAAAAAAAAAgAAAAKAAAAAgAAAAAAAAgCAEAA=</HashCode>
+      <FileName>ViewModels\LoginViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.MainViewModel" Collapsed="true">
+    <Position X="36.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAIAAAgCAEAIAABAAAAAAgIAAAMCIAABACGAAAA=</HashCode>
+      <FileName>ViewModels\MainViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.ProfileViewModel" Collapsed="true">
+    <Position X="32.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQFBIAGAEAAggIAAoAgAAAAIEAAAAAAAABAQAgAAACY=</HashCode>
+      <FileName>ViewModels\ProfileViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.RegViewModel" Collapsed="true">
+    <Position X="32.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAIAAhICAAAAAAAAAAAAAEAAAAAAAAAAggAEAE=</HashCode>
+      <FileName>ViewModels\RegViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.SearchViewModel" Collapsed="true">
+    <Position X="34.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACACAACAAAARAAAAEAAYAAECAAAAAgAAADgYQ=</HashCode>
+      <FileName>ViewModels\SearchViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.SettingsViewModel" Collapsed="true">
+    <Position X="34" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAABAABCAQAAAgAAAAIAAgAAAAAA=</HashCode>
+      <FileName>ViewModels\SettingsViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.ViewModelBase" Collapsed="true">
+    <Position X="37.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\ViewModelBase.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.AddDeliveryVM" Collapsed="true">
+    <Position X="38.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAgAAAAAAAAAAQAAAAAAAAAAEAAAADAAAA=</HashCode>
+      <FileName>ViewModels\AdminViewModels\AddDeliveryVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.AddPartVM" Collapsed="true">
+    <Position X="40.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAkCgBIAgAAQCYAABABEAAAAQAkgAKBAAQ=</HashCode>
+      <FileName>ViewModels\AdminViewModels\AddPartVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.BrandsAdminVM" Collapsed="true">
+    <Position X="42.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIAAAFCAAAAQAAIAAAAAAAAAAQAAAAFAQA=</HashCode>
+      <FileName>ViewModels\AdminViewModels\BrandsAdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.CardsAdminVM" Collapsed="true">
+    <Position X="38.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAEAAQAAAAEIAAAAAAAAAAQAAAAEAQA=</HashCode>
+      <FileName>ViewModels\AdminViewModels\CardsAdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.CategoriesAdminVM" Collapsed="true">
+    <Position X="40.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIgCAECCAAAAAAAACAAEAAAAAQgAAAEAQA=</HashCode>
+      <FileName>ViewModels\AdminViewModels\CategoriesAdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.DeliveriesAdminVM" Collapsed="true">
+    <Position X="38.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAABAEAAEQEAAAAAAAAAAQAAAAEAQAAAAEAQA=</HashCode>
+      <FileName>ViewModels\AdminViewModels\DeliveriesAdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.HomeAdminVM" Collapsed="true">
+    <Position X="40.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModels\AdminViewModels\HomeAdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.MainAdminVM" Collapsed="true">
+    <Position X="38.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAACAAAAAAEGAAABBgAAAAICIABAEqIAQFCCAABAA=</HashCode>
+      <FileName>ViewModels\AdminViewModels\MainAdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.MediasAdminVM" Collapsed="true">
+    <Position X="39.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAKCAAACgAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>ViewModels\AdminViewModels\MediasAdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.MediasDataAdminVM" Collapsed="true">
+    <Position X="41" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAECAgAAAAIAAAAQAAAAEAQAAACEAQQ=</HashCode>
+      <FileName>ViewModels\AdminViewModels\MediasDataAdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.OrdersAdminVM" Collapsed="true">
+    <Position X="42.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAgAAEAIAAAAAAAAAAAAAAAAAQAAAAkAQA=</HashCode>
+      <FileName>ViewModels\AdminViewModels\OrdersAdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.PartsAdminVM" Collapsed="true">
+    <Position X="40.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAARAAAAEAAAABAAAAAQQAAAQEAQA=</HashCode>
+      <FileName>ViewModels\AdminViewModels\PartsAdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.ProvidersAdminVM" Collapsed="true">
+    <Position X="42.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIEAAEKAAAAACQAAAAAAAAAAAwAAQAEAQA=</HashCode>
+      <FileName>ViewModels\AdminViewModels\ProvidersAdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VintageParts.ViewModels.AdminViewModels.UsersAdminVM" Collapsed="true">
+    <Position X="42.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAABAAAEAAAAAAAAAAAAAQAAAAIQAABCEAQA=</HashCode>
+      <FileName>ViewModels\AdminViewModels\UsersAdminVM.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

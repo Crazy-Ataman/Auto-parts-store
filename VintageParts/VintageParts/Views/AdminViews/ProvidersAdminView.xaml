@@ -1,0 +1,54 @@
+﻿<UserControl x:Class="VintageParts.Views.AdminViews.ProvidersAdminView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:VintageParts.Views.AdminViews"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800" Background="#341e7c">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.Column="0" Margin="0,0,0,7.4" >
+            <materialDesign:Card Margin="10" materialDesign:ShadowAssist.ShadowDepth="Depth4" UniformCornerRadius="5">
+                <DataGrid x:Name="partsGrid" VerticalAlignment="Top" ItemsSource="{Binding Providers}" 
+                          SelectedItem="{Binding SelectedProvider}"
+                          AutoGeneratingColumn="OnAutoGeneratingColumn"
+                          CanUserAddRows="False">
+                    <DataGrid.Columns>
+                        <DataGridTemplateColumn Header="Delete" Width="auto">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Button Tag="{Binding}" Command="{Binding RelativeSource={RelativeSource AncestorType=DataGrid}, Path=DataContext.DeleteCommand}">
+                                        <materialDesign:PackIcon Kind="Delete" />
+                                    </Button>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                        </DataGridTemplateColumn>
+                    </DataGrid.Columns>
+                </DataGrid>
+            </materialDesign:Card>
+        </Grid>
+        <Grid Grid.Row="1" Grid.Column="0">
+            <materialDesign:Card Margin="10" materialDesign:ShadowAssist.ShadowDepth="Depth4" UniformCornerRadius="5">
+                <StackPanel Orientation="Horizontal">
+                    <Button Command="{Binding SaveCommand}" Content="{DynamicResource Save}" Style="{StaticResource RoundedButtonStyle}" Height="40" Width="70"/>
+                    <Button Command="{Binding AddCommand}" Content="{DynamicResource Add}" Style="{StaticResource RoundedButtonStyle}" Height="40" Width="70"/>
+                    <StackPanel Margin="20,0,0,0" Orientation="Horizontal">
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                            <TextBlock Text="{DynamicResource Name}"/>
+                            <TextBox Width="100" Text="{Binding Name}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="20,0,0,0">
+                            <TextBlock Text="{DynamicResource Email}"/>
+                            <TextBox Width="100" Text="{Binding Mail}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+            </materialDesign:Card>
+        </Grid>
+    </Grid>                    
+</UserControl>

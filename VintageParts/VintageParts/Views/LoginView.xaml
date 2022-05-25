@@ -1,0 +1,42 @@
+﻿<UserControl x:Class="VintageParts.Views.LoginView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             xmlns:local="clr-namespace:VintageParts.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="500" d:DesignWidth="350">
+    <Grid Background="#242425">
+        <Rectangle Height="280" VerticalAlignment="Top">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#8a44a0"/>
+                    <GradientStop Color="#414073" Offset="0.546"/>
+                    <GradientStop Color="#1f1f2d" Offset="0.9"/>
+                    <GradientStop Color="#242425" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle Width="280" Height="260" VerticalAlignment="Bottom" Margin="0,80" RadiusY="10" RadiusX="10" Fill="White">
+            <Rectangle.Effect>
+                <DropShadowEffect BlurRadius="15" Direction="0" RenderingBias="Quality" ShadowDepth="1" Color="#FFBBBBBB"/>
+            </Rectangle.Effect>
+        </Rectangle>
+        <Grid VerticalAlignment="Bottom" Margin="35,80" Height="260">
+            <Label Content="{DynamicResource Login}" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="5" Foreground="Gray" FontSize="18" FontFamily="Helvetica"/>
+            <TextBlock Text="{Binding ErrorMessage}" HorizontalAlignment="Center" VerticalAlignment="Top" TextAlignment="Center" Margin="30" Foreground="Red" FontSize="12" FontFamily="Helvetica" MaxWidth="280" TextWrapping="Wrap"/>
+            <StackPanel VerticalAlignment="Center" Margin="15,40,15,0">
+                <TextBox Margin="0,10" materialDesign:HintAssist.Hint="{DynamicResource Login2}" Text="{Binding login}" Style="{StaticResource MaterialDesignFloatingHintTextBox}" FontFamily="Champagne &amp; Limousines" FontSize="18" MinLines="1" MaxLength="20">
+                    <materialDesign:TextFieldAssist.CharacterCounterStyle>
+                        <Style TargetType="TextBlock" />
+                    </materialDesign:TextFieldAssist.CharacterCounterStyle>
+                </TextBox>
+                <PasswordBox Margin="0,10" materialDesign:HintAssist.Hint="{DynamicResource Password}" Style="{StaticResource MaterialDesignFloatingHintPasswordBox}" FontFamily="Champagne &amp; Limousines" FontSize="18" x:Name="password_textbox" PasswordChanged="PasswordBox_PasswordChanged" MaxLength="20"/>
+            </StackPanel>
+        </Grid>
+        <Button Style="{StaticResource RoundedButtonStyle}" Width="150" Command="{Binding AuthCommand}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,65" Content="{DynamicResource Login}"/>
+        <Button Style="{StaticResource RoundedButtonStyle}" Width="150" Command="{Binding OpenRegCommand}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,38" Content="{DynamicResource Registration}"/>
+        <materialDesign:PackIcon Kind="ShieldAccountOutline" Width="100" Height="100" VerticalAlignment="Top" Margin="125,30,0,0"/>
+    </Grid>
+</UserControl>
