@@ -9,7 +9,7 @@ ____
 * Material Design Themes 4.5.0
 * Material Design Colors 2.0.6
 ## Patterns used:
-* MVVM :heavy_check_mark:
-* Singleton :heavy_check_mark:
-* Command :heavy_check_mark:
+* :heavy_check_mark: MVVM 
+* :heavy_check_mark: Singleton 
+* :heavy_check_mark: Command 
 ____
